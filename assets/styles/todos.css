@@ -116,7 +116,7 @@ input:focus {
 
 
 .completed {
-	color: gray;
+	color: #FF0000;
 	text-decoration: line-through;
 }
 
