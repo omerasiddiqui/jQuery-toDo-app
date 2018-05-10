@@ -5,7 +5,7 @@
 body {
   font-family: roboto;
 background: url(../images/paper.jpg);
-background-position: center;
+background-position: top center;
 background-size: cover;
 font-size: 62.5%;
 }
@@ -42,7 +42,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(101,101,101,0.99483543
 	text-transform: uppercase;
 	font-size: 2.0rem;
 	font-weight: normal;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Handlee', cursive;
+  /* font-family: 'Libre Baskerville', serif; */
 }
 
 ul {
@@ -117,4 +118,94 @@ input:focus {
 .completed {
 	color: gray;
 	text-decoration: line-through;
+}
+
+/* media breakpoints */
+
+@media (max-width: 1200px) {
+  main {
+    width: 70%;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 950px) {
+  main {
+    width: 75%;
+    height: 60vh;
+  }
+  h1 {
+    font-size: 3.2rem;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 85%;
+    height: 65vh;
+  }
+  h1 {
+    font-size: 3.0rem;
+    padding-bottom: 5%;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  input {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  main {
+    width: 90%;
+    height: 70vh;
+  }
+  h1 {
+    font-size: 2.7rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  input {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  main {
+    width: 95%;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  input {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  main {
+    width: 95%;
+    height: 85vh;
+    margin-top: -10%;
+  }
+  h1 {
+    font-size: 3.8rem;
+    text-align: center;
+    line-height: 1;
+    padding-bottom: 20%;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  input {
+    font-size: 1.2rem;
+  }
 }
