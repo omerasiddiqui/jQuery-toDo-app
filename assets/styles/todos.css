@@ -34,8 +34,9 @@ h1 {
 }
 
 h2 {
-	background: background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(101,101,101,0.9948354341736695) 35%, rgba(152,152,152,0.9976365546218487) 100%);
+  /* background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(101,101,101,0.9948354341736695) 35%, rgba(152,152,152,0.9976365546218487) 100%); */
+  background: black;
 	color: white;
 	margin: 0;
 	padding: 10px 20px;
@@ -165,7 +166,7 @@ input:focus {
 @media (max-width: 650px) {
   main {
     width: 90%;
-    height: 70vh;
+    height: 65vh;
   }
   h1 {
     font-size: 2.7rem;
