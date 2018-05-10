@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+
+
+body {
+  font-family: roboto;
+background: url(../images/paper.jpg);
+background-position: center;
+background-size: cover;
+font-size: 62.5%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  /* background: white; */
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 10%;
+  height: 50vh;
+  position: relative;
+  top: 10vh;
+  background: rgb(237,234,6);
+  background: linear-gradient(90deg, rgba(237,234,6,1) 0%, rgba(228,241,98,0.9948354341736695) 35%, rgba(254,254,254,0.9976365546218487) 100%);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Bungee Shade', cursive;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+h2 {
+	background: background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(101,101,101,0.9948354341736695) 35%, rgba(152,152,152,0.9976365546218487) 100%);
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 2.0rem;
+	font-weight: normal;
+  font-family: 'Libre Baskerville', serif;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+  font-family: 'Handlee', cursive;
+  font-size: 1.4rem;
+}
+
+li:nth-child(2n) {
+	background-color: #f7f7f7;
+}
+
+span {
+	background-color: #f49b95;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+
+input {
+	font-size: 1.6rem;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #515151;
+	border: 3px solid rgba(0,0,0,0);
+  font-family: 'Handlee', serif;
+}
+
+input:focus {
+	background-color: white;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+.fa-plus {
+	float: right;
+}
+
+
+#container {
+
+	width: 360px;
+	margin: 2% auto;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, .3);
+
+}
+
+
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
