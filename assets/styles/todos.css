@@ -21,8 +21,8 @@ main {
   height: 50vh;
   position: relative;
   top: 10vh;
-  background: rgb(237,234,6);
-  background: linear-gradient(90deg, rgba(237,234,6,1) 0%, rgba(228,241,98,0.9948354341736695) 35%, rgba(254,254,254,0.9976365546218487) 100%);
+  background: rgb(240,229,6);
+  background: linear-gradient(90deg, rgba(240,229,6,1) 0%, rgba(241,239,90,0.9948354341736695) 35%, rgba(245,245,245,0) 100%);
   border-radius: 10px;
 }
 
@@ -116,7 +116,7 @@ input:focus {
 
 
 .completed {
-	color: #FF0000;
+	color: gray;
 	text-decoration: line-through;
 }
 
